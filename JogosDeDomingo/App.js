@@ -23,27 +23,13 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-
+import topo from './topo'
 const App = () => {
   return (
 
     <View>
+      <topo/>
 
-      <View>
-        <Text>
-          Pelada de Domingo
-        </Text>
-      </View>
-      <View>
-        <TouchableHighlight>
-          <Text>
-            Lista de Jogadores
-          </Text>
-        </TouchableHighlight>
-        <TouchableHighlight>
-          <Text>Lista de Jogos</Text>
-        </TouchableHighlight>
-      </View>
       <View>
         <TouchableHighlight>
           <Text>Cadastrar Jogador</Text>
@@ -58,7 +44,7 @@ const App = () => {
 };
 
 const styles = StyleSheet.create({
- 
+
 });
 
 export default App;
